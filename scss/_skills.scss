@@ -1,0 +1,32 @@
+.skills-section {
+  display: flex;
+  gap: 2rem;
+  margin: 2rem 0;
+
+  .skills-col {
+    flex: 1;
+    background: $secondary-color;
+    border-radius: $border-radius;
+    padding: 1.5rem;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.03);
+
+    h3 {
+      color: $primary-color;
+      margin-top: 0;
+    }
+
+    ul {
+      list-style: disc inside;
+      margin: 0.5rem 0 0 0;
+      padding: 0;
+      color: $text-color;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .skills-section {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}

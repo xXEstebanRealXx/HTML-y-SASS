@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3fc46f5d-d067-4fd5-8384-316f2316b1fb" name="IONOS SFTP" url="https://meesteban.com">
+        <fileTransfer accessType="SFTP" host="access-5018345617.webspace-host.com" port="22" sshConfigId="955cf29b-ce86-4c09-893c-c940905b1f6e" sshConfig="a866435@access-5018345617.webspace-host.com:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
